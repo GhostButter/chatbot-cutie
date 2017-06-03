@@ -15,6 +15,17 @@ function chat (){
 	if (textBoxValue == "Do a inprestion of tumber") {
 		document.getElementById("hellro").innerHTML = "TRIGGERED\n"
 	}
+	if (textBoxValue == "who do you main in TF2") {
+		document.getElementById("hellro").innerHTML = "Speeeeeee http://i0.kym-cdn.com/photos/images/newsfeed/000/039/931/600px-Gentlemen.jpg\n"
+	}
+	if (textBoxValue == "do you like anime") {
+		document.getElementById("hellro").innerHTML = "anime was a mistake\n"
+	}
+	if (textBoxValue == "who do you main in overwatch") {
+		document.getElementById("hellro").innerHTML = "TRIGGERED\n"
+		var audio = document.getElementById("never");
+		audio.play();
+	}
 	document.getElementById('poop').innerHTML += Date() + "\n";
 	document.getElementById('poop').innerHTML += "User: " + textBoxValue + "\n";
 	document.getElementById('poop').innerHTML += "Memebot" + document.getElementById('hellro').innerHTML + "\n"
